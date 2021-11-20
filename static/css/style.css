@@ -1,0 +1,52 @@
+.main{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px;
+    font-family: sans-serif;
+}
+
+
+
+div {
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+h1{
+	font-size: 60px;
+}
+
+.links {
+	font-family: sans-serif; 
+	color: LightSeaGreen;
+	margin: 50px;
+	font-size: 50px;
+}
+
+.resetB > button{
+    width: 290px;
+    height: 80px;
+    font-size: 35px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    background-color: DodgerBlue;
+    color: white;
+    font-family: sans-serif;
+}
+
+.resetB > button:hover{
+	cursor: pointer;
+    background-color: LightBlue;
+    color: white;
+}
+
+a{
+	font-family: sans-serif; 
+	color: LightSeaGreen;
+	margin: 50px;
+	font-size: 50px;
+}
